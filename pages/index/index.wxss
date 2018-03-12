@@ -1,0 +1,66 @@
+/**index.wxss**/
+page{
+  height: 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1f1;
+}
+.bodyer{
+  width: 100%;
+  height: 80%;
+  /* background-color: #f1f1f1; */
+  text-align: center;
+  align-items: center;
+}
+.tip{
+  width: 76%;
+  position: absolute;
+  top: 30%;
+  left: 12%;
+  transform: translateY(-50%); 
+  margin: 0 auto;
+  text-align: left;
+}
+.theTip{
+  font-size: 80rpx;
+  text-align: left;
+}
+.xian{
+  width: 40%;
+  height: 2px;
+  margin: 5px 0 2px 0;
+  background-color: #333;
+}
+.tipBody{
+ font-size: 44rpx;
+}
+.myCanvas{
+  width:96%;
+  height:76%;  
+  position: absolute; 
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.footer{
+  width: 100%;
+  height:20%;
+  /* position: absolute; */
+  bottom:0px;
+  flex-direction: row;
+  align-items: center; 
+  background-color: #fff; 
+}
+.startBtn{
+  margin-top:10%;
+  margin-left: 12%;
+  height: 100rpx;
+  width: 32%;
+  text-align: center;
+  float: left;
+  font-size: 50rpx;
+  line-height: 100rpx;
+  border-radius: 0;
+}

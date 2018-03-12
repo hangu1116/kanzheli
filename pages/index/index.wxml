@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<!--  小程序所有标签都 不能进行DOM操作，绑定事件需要行间绑定-->
+
+<view class="container">
+  <view class="bodyer">
+    <view class='tip'>
+      <text class='theTip'>{{tips}}</text>
+      <view class='xian'></view>
+      <text class='tipBody'>{{tipbody}}</text>
+    </view>
+    <canvas class='myCanvas' canvas-id="firstCanvas" disable-scroll='true' bindtap="bindtouchstart"
+  style="height:{{canvasHeight}},width:{{canvasWidth}}"></canvas>  
+  </view>
+  <view class="footer">
+    <!-- <input  placeholder='提示文字'></input> -->
+    <button bindtap='chooseImage' class='startBtn'>选择📷</button>
+    <button bindtap='saveImage' class='startBtn'>保存👌</button>
+  </view>
+</view>
+  <!-- bindtouchstart="bindtouchstart"
+  bindtouchmove="bindtouchmove"
+  bindtouchend="bindtouchend"
+  bindlongpress="bindlongpress"  -->
