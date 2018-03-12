@@ -1,0 +1,5 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class='success'>🚀</view>
+  <view class='successTip'>保存成功!</view>
+</view>

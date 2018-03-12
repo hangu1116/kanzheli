@@ -1,0 +1,18 @@
+ page{
+  height: 100%;
+  background-color: #bdd;
+}
+.container{
+  height: 10%;
+  margin-top: 45%;
+}
+.success{
+  text-align: center;
+  font-size: 140rpx;
+}
+.successTip{
+  font-size: 50rpx;
+  font-weight: 900;
+  text-align: center;
+  color: #333;
+} 
